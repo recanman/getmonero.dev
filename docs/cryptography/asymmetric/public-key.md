@@ -1,10 +1,13 @@
 ---
 title: Public Keys in Monero
+parent: Asymmetric Cryptography in Monero
+grand_parent: Cryptography in Monero
 ---
+
 # Public Keys in Monero
 
-!!! note
-    Author is nowhere close to being a cryptographer. Be sceptical on accuracy.
+{: .warning}
+Author is nowhere close to being a cryptographer. Be sceptical on accuracy.
 
 Public key is deterministically derived from private key based on [edwards25519 curve](/cryptography/asymmetric/edwards25519) with a little Monero-specific twist.
 

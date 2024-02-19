@@ -1,6 +1,8 @@
 ---
 title: Subaddress
+parent: Public Address
 ---
+
 # Subaddress
 
 Subaddress is what you should be using by default to receive Monero.

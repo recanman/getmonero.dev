@@ -1,10 +1,13 @@
 ---
 title: Private Keys in Monero
+parent: Asymmetric Cryptography in Monero
+grand_parent: Cryptography in Monero
 ---
+
 # Private Keys in Monero
 
-!!! note
-    Author is nowhere close to being a cryptographer. Be sceptical on accuracy.
+{: .warning}
+Author is nowhere close to being a cryptographer. Be sceptical on accuracy.
 
 In Monero, the root private key is generated [randomly](/cryptography/prng). Other private keys are derived deterministically from the root private key.
 

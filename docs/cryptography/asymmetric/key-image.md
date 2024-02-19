@@ -1,10 +1,13 @@
 ---
 title: Monero Private Key Image
+parent: Asymmetric Cryptography in Monero
+grand_parent: Cryptography in Monero
 ---
+
 # Monero Private Key Image
 
-!!! note
-    Author is nowhere close to being a cryptographer. Be sceptical on accuracy.
+{: .warning}
+Author is nowhere close to being a cryptographer. Be sceptical on accuracy.
 
 Private key image serves to detect double spending attempts.
 

@@ -1,6 +1,8 @@
 ---
 title: Keccak-256 Hash Function
+parent: Cryptography in Monero
 ---
+
 # Keccak-256 Hash Function
 
 Monero employs Keccak as a hashing function. In most context specifically Keccak-256 is used,
