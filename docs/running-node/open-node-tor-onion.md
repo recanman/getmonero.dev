@@ -82,7 +82,7 @@ Create monero **log** directory `mkdir -p /var/log/monero` and `chown -R monero:
 
 Feel free to adjust above to your preferred conventions, just remember to adjust the paths accordingly.
 
-[Download](/interacting/download-monero-binaries/) and [verify](/interacting/verify-monero-binaries/) the file.
+[Download](/docs/interacting/download-monero-binaries/) and [verify](/docs/interacting/verify-monero-binaries/) the file.
 
 Extract `tar -xf monero-linux-x64-v0.17.1.9.tar.bz2` (adjust filename).
 
@@ -100,7 +100,7 @@ Verify it is working as intended `tail -n100 /var/log/monero/monero.log`
 
 ### /etc/monero.conf
 
-This is just an example configuration and it is by no means authoritative. Feel free to modify, see [monerod reference](/interacting/monerod-reference).
+This is just an example configuration and it is by no means authoritative. Feel free to modify, see [monerod reference](/docs/interacting/monerod-reference).
 
 Modify paths if you changed them.
 
@@ -110,7 +110,7 @@ Print your onion address with `cat /var/lib/tor/monero/hostname` and paste it to
 # /etc/monero.conf
 #
 # Configuration file for monerod. For all available options see the MoneroDocs:
-# https://monerodocs.org/interacting/monerod-reference/
+# https://getmonero.dev/docs/interacting/monerod-reference/
 
 # Data directory (blockchain db and indices)
 data-dir=/srv/monero

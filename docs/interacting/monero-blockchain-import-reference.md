@@ -15,7 +15,7 @@ The tool imports bootstrap file `blockchain.raw` to your full node.
 This could be useful if you want to decouple download from verification for any reason (like testing performance in isolation).
 In this case, you may download the `blockchain.raw` file from [https://downloads.getmonero.org/blockchain.raw](https://downloads.getmonero.org/blockchain.raw).
 
-Ideally though, you should use your own trusted `blockchain.raw` file that you [exported](/interacting/monero-blockchain-export-reference) earlier.
+Ideally though, you should use your own trusted `blockchain.raw` file that you [exported](/docs/interacting/monero-blockchain-export-reference) earlier.
 
 Please note that importing `blockchain.raw` will **not** speed up the process over syncing up from p2p network.
 This is because usual bottlenecks are disk IO and verification, not the download.  
@@ -49,9 +49,9 @@ Go to directory where you unpacked Monero.
 
 | Option              | Description
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------
-| (missing)           | By default `monero-blockchain-import` assumes the [mainnet](/infrastructure/networks#mainnet) blockchain.
-| `--stagenet`        | Import [stagenet](/infrastructure/networks#stagenet) blockchain.
-| `--testnet`         | Import [testnet](/infrastructure/networks#testnet) blockchain.
+| (missing)           | By default `monero-blockchain-import` assumes the [mainnet](/docs/infrastructure/networks#mainnet) blockchain.
+| `--stagenet`        | Import [stagenet](/docs/infrastructure/networks#stagenet) blockchain.
+| `--testnet`         | Import [testnet](/docs/infrastructure/networks#testnet) blockchain.
 
 ### Logging
 
@@ -73,7 +73,7 @@ Specifying the log file path is not supported.
 
 | Option              | Description
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------
-| `--data-dir`        | Full path to data directory. This is where the blockchain, log files, and p2p network memory are stored. For defaults and details see [data directory](/interacting/overview/#data-directory).
+| `--data-dir`        | Full path to data directory. This is where the blockchain, log files, and p2p network memory are stored. For defaults and details see [data directory](/docs/interacting/overview/#data-directory).
 | `--count-blocks`    | Count blocks in the bootstrap file and exit.
 | `--drop-hard-fork`  | Whether to drop hard fork data. Off by default (`0`). 
 | `--database`        | The only valid value seems to be `lmdb` (the default).
