@@ -250,7 +250,6 @@ These options are useful for Monero project developers and testers. Normal users
 | `--keep-fakechain`                 | Don't delete any existing database when in fakechain mode.
 | `--fixed-difficulty`               | Fixed difficulty used for testing. By default `0`.
 | `--test-dbg-lock-sleep`            | Sleep time in ms, defaults to 0 (off), used to debug before/after locking mutex. Values 100 to 1000 are good for tests.
-| `--save-graph`                     | Save data for dr Monero.
 
 #### Legacy
 
