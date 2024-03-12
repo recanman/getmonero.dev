@@ -23,6 +23,8 @@ Many merchants prefer to immediately convert their received XMR to fiat. This is
 | [MoneroPay](https://moneropay.eu/) | ✅ | ✅ | ❌ Must do manually | ❌ Must do manually |
 | [NOWPayments](https://nowpayments.io/) | ❌ | ⚠️ Some plugins are open source | ✅ | ✅ Yes, with Guardarian (KYC required) |
 | [CoinPayments](https://www.coinpayments.net) | ❌ | ⚠️ Some plugins are open source | ✅ | ❌ Must do manually |
+| [Cryptomus](https://cryptomus.com/white_label) | ❌ | ❌ | ✅ | ❌ Must do manually |
+| [ForgingBlock](https://forgingblock.io/) | ❌ | ❌ | ✅ | ❌ Must do manually |
 | [Monero Integrations](https://monerointegrations.com/) | ✅ | ✅ | ❌ Must do manually | ❌ Must do manually |
 | Manual Wallet Processing | ✅ | ✅ | ❌ Must do manually | ❌ Must do manually |
 
@@ -53,6 +55,18 @@ NOWPayments allows customers to pay with many different cryptocurrencies, not ju
 ## CoinPayments
 
 [CoinPayments](https://www.coinpayments.net) most directly competes with NOWPayments. You can receive XMR and other cryptocurrencies on your website, and they can be automatically converted to another cryptocurrency such as a stablecoin. They have [plugins](https://www.coinpayments.net/merchant-tools-plugins) for most store types.
+
+## Cryptomus
+
+[Cryptomus](https://cryptomus.com/) is a payment processor service that supports payments in many cryptocurrencies including XMR. These can automatically be converted to another cryptocurrency such as a stablecoin.
+
+In testing, there is a ~2.5% hidden exchange rate spread for the purchaser (and possibly for the automatic cryptocurrency conversion), and a 0.4% fee for the seller.
+
+## ForgingBlock
+
+[ForgingBlock](https://forgingblock.io) is a payment processor service that supports payments in many cryptocurrencies including XMR. These can automatically be converted to another cryptocurrency such as a stablecoin.
+
+Pricing starts at $599.
 
 ## Monero Integrations
 
