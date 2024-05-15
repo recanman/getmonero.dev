@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-permalink: /docs/cryptography/asymmetric/private-key
+permalink: /docs/cryptography/asymmetric/private-key.html
 redirect_to: /cryptography/asymmetric/private-key
 ---

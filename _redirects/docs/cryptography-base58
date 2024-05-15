@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-permalink: /docs/cryptography/base58
+permalink: /docs/cryptography/base58.html
 redirect_to: /cryptography/base58
 ---
