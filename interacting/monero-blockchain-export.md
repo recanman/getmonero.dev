@@ -1,5 +1,5 @@
 ---
-title: monero-blockchain-export - Reference
+title: monero-blockchain-export
 parent: Interacting with Monero
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: monero-wallet-cli - Reference
+title: monero-wallet-cli
 parent: Interacting with Monero
 ---
 

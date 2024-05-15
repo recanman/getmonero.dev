@@ -1,5 +1,5 @@
 ---
-title: monero-wallet-rpc - Reference
+title: monero-wallet-rpc
 parent: Interacting with Monero
 ---
 

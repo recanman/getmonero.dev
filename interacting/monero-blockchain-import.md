@@ -1,5 +1,5 @@
 ---
-title: monero-blockchain-import - Reference
+title: monero-blockchain-import
 parent: Interacting with Monero
 ---
 

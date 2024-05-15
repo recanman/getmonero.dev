@@ -1,0 +1,6 @@
+---
+layout: redirected
+sitemap: false
+permalink: /docs/cryptography/prng
+redirect_to: /cryptography/prng
+---

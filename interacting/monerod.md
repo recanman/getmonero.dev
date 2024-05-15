@@ -1,5 +1,5 @@
 ---
-title: monerod - Reference
+title: monerod
 parent: Interacting with Monero
 ---
 

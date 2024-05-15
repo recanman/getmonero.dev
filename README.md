@@ -12,7 +12,7 @@ The goal is to educate and onboard power users faster.
 
 Contributing is easy and much appreciated! You can contribute in the markdown format by opening a pull request.
 
-Start by interacting with the `/docs` folder. The documentation is organized into various folders. Each of these folders contain markdown files.
+The documentation is organized into various folders (skip over the ones that start with an underscore `_`). Each of these folders contain markdown files.
 
 Each folder needs a markdown file in it with the same name, acting as the parent. Children markdown files can be added to the folder. Please follow another example folder for the correct header content or follow the [Just the Docs documentation](https://just-the-docs.com/).
 
@@ -22,7 +22,7 @@ If you do not know how to make a pull request, please create a GitHub issue with
 
 ## Images
 
-Images should be placed under a folder in `/images` using the same folder name for the relevant markdown file in `/docs`.
+Images should be placed under a folder in `/images` using the same folder name for the relevant markdown file.
 
 When linking images, follow a format like this:
 
