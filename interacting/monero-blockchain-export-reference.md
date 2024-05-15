@@ -44,9 +44,9 @@ Go to directory where you unpacked Monero.
 
 | Option              | Description
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------
-| (missing)           | By default `monero-blockchain-export` assumes [mainnet](/docs/infrastructure/networks#mainnet).
-| `--stagenet`        | Export [stagenet](/docs/infrastructure/networks#stagenet) blockchain.
-| `--testnet`         | Export [testnet](/docs/infrastructure/networks#testnet) blockchain.
+| (missing)           | By default `monero-blockchain-export` assumes [mainnet](/infrastructure/networks#mainnet).
+| `--stagenet`        | Export [stagenet](/infrastructure/networks#stagenet) blockchain.
+| `--testnet`         | Export [testnet](/infrastructure/networks#testnet) blockchain.
 
 ### Logging
 
@@ -60,7 +60,7 @@ Specifying the log file path is not supported.
 
 | Option                     | Description
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------
-| `--data-dir`               | Full path to data directory. This is where the blockchain, log files, and p2p network memory are stored. For defaults and details see [data directory](/docs/interacting/overview/#data-directory).
+| `--data-dir`               | Full path to data directory. This is where the blockchain, log files, and p2p network memory are stored. For defaults and details see [data directory](/interacting/overview/#data-directory).
 | `--database`, `--db-type`  | The default and only valid value is `lmdb`.
 
 ### Output

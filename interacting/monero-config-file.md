@@ -7,7 +7,7 @@ parent: Interacting with Monero
 
 ## Applicability
 
-By default Monero looks for `bitmonero.conf` in Monero [data directory](/docs/interacting/overview/#data-directory).
+By default Monero looks for `bitmonero.conf` in Monero [data directory](/interacting/overview/#data-directory).
 
 To use a specific config file add `--config-file` option:
 
@@ -31,9 +31,9 @@ The `--config-file` option is available for:
 
 All configuration options are the same as command line options for the binary.
 
-* [monerod reference](/docs/interacting/monerod-reference)
-* [monero-wallet-cli reference](/docs/interacting/monero-wallet-cli-reference)
-* [monero-wallet-rpc reference](/docs/interacting/monero-wallet-rpc-reference)
+* [monerod reference](/interacting/monerod-reference)
+* [monero-wallet-cli reference](/interacting/monero-wallet-cli-reference)
+* [monero-wallet-rpc reference](/interacting/monero-wallet-rpc-reference)
 
 Skip the `--` from `--option-name`.
 
@@ -76,7 +76,7 @@ This config is tailored for production server usage.
     db-sync-mode=safe
     
     # Emergency checkpoints set by MoneroPulse operators will be enforced to workaround potential consensus bugs
-    # Check https://getmonero.dev/docs/infrastructure/monero-pulse/ for explanation and trade-offs
+    # Check https://getmonero.dev/infrastructure/monero-pulse/ for explanation and trade-offs
     enforce-dns-checkpointing=1
     
     out-peers=64              # This will enable much faster sync and tx awareness; the default 8 is suboptimal nowadays
@@ -87,7 +87,7 @@ This config is tailored for production server usage.
 
 ### `monero-wallet-cli.conf`
 
-This config is tailored for desktop usage on [stagenet](/docs/infrastructure/networks).
+This config is tailored for desktop usage on [stagenet](/infrastructure/networks).
 
     # $HOME/.bitmonero/stagenet/monero-wallet-cli.conf
 

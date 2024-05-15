@@ -21,7 +21,7 @@ callouts:
     color: green
 
 # Footer content
-footer_content: "Copyright &copy; MoneroDocs.org Contributors, MAGIC Grants, and Other Contributors. MIT Licensed."
+footer_content: "Copyright &copy; MoneroDocs.org Contributors, [MAGIC Grants](https://magicgrants.org), and Other Contributors. MIT Licensed."
 back_to_top: true # Back to top link
 back_to_top_text: "Back to top"
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -38,6 +38,7 @@ color_scheme: dark # sets the current theme to dark
 plugins:
   - jekyll-default-layout
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 compress_html:
   clippings: all
