@@ -25,7 +25,7 @@ The CLI wallet is the most reliable and most feature complete wallet for Monero.
 
 ### Depends on the full node
 
-Wallet connects to a [full node](/interacting/monerod-reference) to scan the blockchain for your transaction outputs and to send your transactions out to the network.
+Wallet connects to a [full node](/interacting/monerod) to scan the blockchain for your transaction outputs and to send your transactions out to the network.
 
 The full node can be either local (same computer) or remote.
 
@@ -86,7 +86,7 @@ In a separate terminal window, run the wallet:
 
 #### Full node connection
 
-Wallet depends on a full node for all non-local operations. The following options define how to connect to [`monerod`](/interacting/monerod-reference):
+Wallet depends on a full node for all non-local operations. The following options define how to connect to [`monerod`](/interacting/monerod):
 
 | Option                   | Description
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------

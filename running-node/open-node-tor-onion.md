@@ -100,7 +100,7 @@ Verify it is working as intended `tail -n100 /var/log/monero/monero.log`
 
 ### /etc/monero.conf
 
-This is just an example configuration and it is by no means authoritative. Feel free to modify, see [monerod reference](/interacting/monerod-reference).
+This is just an example configuration and it is by no means authoritative. Feel free to modify, see [monerod reference](/interacting/monerod).
 
 Modify paths if you changed them.
 
@@ -110,7 +110,7 @@ Print your onion address with `cat /var/lib/tor/monero/hostname` and paste it to
 # /etc/monero.conf
 #
 # Configuration file for monerod. For all available options see the MoneroDocs:
-# https://getmonero.dev/interacting/monerod-reference/
+# https://getmonero.dev/interacting/monerod/
 
 # Data directory (blockchain db and indices)
 data-dir=/srv/monero

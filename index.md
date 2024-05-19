@@ -12,10 +12,10 @@ The goal of this website is to supplement the official Monero documentation. Thi
 
 Common pages include:
 
-* [Using monerod](/interacting/monerod-reference)
-* [Using monero-wallet-cli](/interacting/monero-wallet-cli-reference)
-* [Using monero-wallet-gui](/interacting/monero-wallet-gui-reference)
-* [Using monero-wallet-rpc](/interacting/monero-wallet-rpc-reference)
+* [Using monerod](/interacting/monerod)
+* [Using monero-wallet-cli](/interacting/monero-wallet-cli)
+* [Using monero-wallet-gui](/interacting/monero-wallet-gui)
+* [Using monero-wallet-rpc](/interacting/monero-wallet-rpc)
 
 Please submit your feedback and corrections directly on [GitHub](https://github.com/MAGICGrants/getmonero.dev/issues).
 

@@ -28,11 +28,11 @@ However, wallet does not store the blockchain and does not directly participate 
 
 ### Depends on the full node
 
-Wallet connects to a [full node](/interacting/monerod-reference) to scan the blockchain for your transaction outputs and to send your transactions out to the network.
+Wallet connects to a [full node](/interacting/monerod) to scan the blockchain for your transaction outputs and to send your transactions out to the network.
 
 The full node can be either local (same computer) or remote.
 
-You can play with [CLI wallet](/interacting/monero-wallet-cli-reference) and [GUI wallet](/interacting/monero-wallet-gui-reference) first to understand the relationship between the full node, the wallet and the user.
+You can play with [CLI wallet](/interacting/monero-wallet-cli) and [GUI wallet](/interacting/monero-wallet-gui) first to understand the relationship between the full node, the wallet and the user.
 
 ## Syntax
 
